@@ -101,7 +101,7 @@ p {
     opacity:0;
 }
 /* ABOUT ME */
- #aboutMeBody {
+ body {
     position:absolute;
     top:0;
     left:0;
@@ -142,7 +142,7 @@ p {
     }
 }
 /*PROJECTS*/
-#projectsContainer {
+ #projectsContainer {
     padding:1vw;
     max-width:100%;
     overflow:hidden;
@@ -162,4 +162,20 @@ p {
 }
 .projectImage>img {
     width:100%;
+}
+/*WORK EXPERIENCE*/
+ #workExperienceContainer {
+    z-index:-20;
+    margin:0;
+    padding-top:1em;
+    max-height:90%;
+    padding-left:5vw;
+    padding-right:8vw;
+}
+#workExperienceContainer>h2 {
+    text-align:center;
+}
+#workExperienceLink {
+    color:#000;
+    text-align:center;
 }

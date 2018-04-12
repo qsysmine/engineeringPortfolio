@@ -1,4 +1,4 @@
-$('nav>a, .navLink').click(function(e) {
+/*$('nav>a, .navLink').click(function(e) {
     if($(this).hasClass("external")) return;
     e.preventDefault();
     var href = $(this).attr("href");
@@ -7,4 +7,4 @@ $('nav>a, .navLink').click(function(e) {
             location.assign(href);
         })
     });
-});
+});*/
