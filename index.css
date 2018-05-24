@@ -1,5 +1,10 @@
-* {
-    font-family:"Times", serif;
+@import(url(/butler.css));
+
+ *, h2#introHeader {
+    font-family: "Times", "Times New Roman", serif;
+}
+h1, h2, nav>a#targetA, .button {
+    font-family:"Butler", "Times", "Times New Roman", serif;
 }
 br {
     display:block;
