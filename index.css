@@ -1,6 +1,4 @@
-@import(url(/butler.css));
-
- *, h2#introHeader {
+*, h2#introHeader {
     font-family: "Times", "Times New Roman", serif;
 }
 h1, h2, nav>a#targetA, .button {
