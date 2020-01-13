@@ -1,9 +1,15 @@
+
+
 *, h2#introHeader {
   font-family: "Times", "Times New Roman", serif;
 }
 
 h1, h2, nav>a#targetA, .button {
   font-family: "Butler", "Times", "Times New Roman", serif;
+}
+
+acronym {
+  cursor: help;
 }
 
 br {
@@ -215,4 +221,10 @@ body {
 #workExperienceLink {
   color: #000;
   text-align: center;
+}
+
+@media screen and (max-width:650px) {
+  .project {
+    flex-direction:column;
+  }
 }
